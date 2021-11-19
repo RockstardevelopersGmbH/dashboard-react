@@ -1,44 +1,35 @@
-# Getting Started with Create React App
+# dashboard-react
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Dieses Projekt umfasst einen React Starter Kit (erstellt mit create-react-app) mit dem ein Dashboard erstellt werden soll. Das Dashboard zeigt zufällig generierte Geräteinformationen an.
 
-## Available Scripts
+Ein Beispiel-Design findest du in der Datei `design.pdf`.
 
-In the project directory, you can run:
+Du musst das Design und die Funktionalität nicht komplett umsetzen, arbeite einfach an den Punkten auf die Du Lust hast, soweit wie du kommst.
 
-### `yarn start`
+Zögere nicht, dich bei Problemen an uns zu wenden. Viel Spass!
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Funktionsbeschreibung
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- Das Dashboard zeigt den Status einer oder mehrerer Geräte an.
+- Jedes Gerät hat mehrere Statuswerte die überwacht werden sollen.
+- Beim Klick auf ein Gerät wird ein Detail-Overlay geöffnet in dem detaillierte Daten (z.B. in Form mehrerer Diagramme) zum gewählten Gerät angezeigt werden.
+- Das Dashboard zeigt oben rechts das aktuelle Datum und die aktuelle Uhrzeit an.
 
-### `yarn test`
+## Anforderungen
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Grundsätzliches Verständnis von Frontend Technologien (HTML / SASS (CSS) / JavaScript / DOM Manipulation / React)
+- Ein Projekt zum Laufen zu bekommen
 
-### `yarn build`
+# Starten
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+In deinem Terminal:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+$ npm install
+$ npm start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
+Die Anwendung läuft nun unter http://localhost:3000. Wenn du Änderungen an deinem Source Code vornimmst, wird die Applikation automatisch neu geladen.
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
