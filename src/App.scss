@@ -1,0 +1,9 @@
+@import "scss/main";
+
+.app {
+    padding: 0 32px;
+    margin: 0 auto;
+    @include breakpoint(lg) {
+        max-width: 1280px;
+    }
+}
